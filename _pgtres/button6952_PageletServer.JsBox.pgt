@@ -1,0 +1,26 @@
+========== Description Part Begin ==========
+Title = button6952
+ProgID = PageletServer.JsBox
+LastUpdateTime = 45172.241655093
+PreviewPath = 
+Description = javascript button
+========== Description Part End ==========
+
+========== Parameter Part Begin ==========
+MailButtonPara = JavaScript Button,http://www.sothink.com,http:,Center,www.sothink.com
+JsBoxType = 4
+========== Parameter Part End ==========
+
+========== Resource Part Begin ==========
+Resource Number = 0
+========== Resource Part End ==========
+
+========== HTML Part Begin ==========
+Segment Number = 1
+Segment Position = cursor
+<form>
+<div align="Center"><input TYPE="button" VALUE="JavaScript Button" onClick="parent.location='http://www.sothink.com'"></div>
+</form>
+===== Segment End =====
+========== HTML Part End ==========
+

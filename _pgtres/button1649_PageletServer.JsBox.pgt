@@ -1,0 +1,26 @@
+========== Description Part Begin ==========
+Title = button1649
+ProgID = PageletServer.JsBox
+LastUpdateTime = 45172.242858796
+PreviewPath = 
+Description = javascript button
+========== Description Part End ==========
+
+========== Parameter Part Begin ==========
+MailButtonPara = Submit,http://www.Dashboard.com,http:,Center,www.Dashboard.com
+JsBoxType = 4
+========== Parameter Part End ==========
+
+========== Resource Part Begin ==========
+Resource Number = 0
+========== Resource Part End ==========
+
+========== HTML Part Begin ==========
+Segment Number = 1
+Segment Position = cursor
+<form>
+<div align="Center"><input TYPE="button" VALUE="Submit" onClick="parent.location='http://www.Dashboard.com'"></div>
+</form>
+===== Segment End =====
+========== HTML Part End ==========
+

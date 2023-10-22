@@ -1,0 +1,44 @@
+========== Description Part Begin ==========
+Title = contents41bb
+ProgID = PageletServer.JsBox
+LastUpdateTime = 45172.252303241
+PreviewPath = 
+Description = check the input is digit or not
+========== Description Part End ==========
+
+========== Parameter Part Begin ==========
+NovacantPara = 50,4,Submit,http://www.sothink.com,Center,http:,www.sothink.com
+NoVacantAlert = There are no contents
+JsBoxType = 10
+========== Parameter Part End ==========
+
+========== Resource Part Begin ==========
+Resource Number = 0
+========== Resource Part End ==========
+
+========== HTML Part Begin ==========
+Segment Number = 2
+Segment Position = script
+<script language="javascript">
+function noEntry(formname, alerttext){
+	mt=document.forms[formname].content.value;
+	if (mt.length<1){
+		alert(alerttext);
+		return false;}
+}
+</script>
+===== Segment End =====
+Segment Position = cursor
+<script language="javascript">
+srctecformnovancantcontents41bbalerttextvacant="There are no contents"
+</script>
+<form name="srctecformnovancantcontents41bb" action="http://www.sothink.com" enctype="text/plain" method="post" onsubmit="return noEntry('srctecformnovancantcontents41bb',srctecformnovancantcontents41bbalerttextvacant)">
+<div align="Center">
+<textarea cols="50" rows="4" name="content"></textarea>
+<br>
+<input type="submit" name="submit" value="Submit">
+</div>
+</form>
+===== Segment End =====
+========== HTML Part End ==========
+

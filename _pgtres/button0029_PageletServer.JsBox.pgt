@@ -1,0 +1,26 @@
+========== Description Part Begin ==========
+Title = button0029
+ProgID = PageletServer.JsBox
+LastUpdateTime = 45172.214375000
+PreviewPath = 
+Description = javascript button
+========== Description Part End ==========
+
+========== Parameter Part Begin ==========
+MailButtonPara = SIGN UP,http://www.FIRSTSIGNUP.com,http:,Center,www.FIRSTSIGNUP.com
+JsBoxType = 4
+========== Parameter Part End ==========
+
+========== Resource Part Begin ==========
+Resource Number = 0
+========== Resource Part End ==========
+
+========== HTML Part Begin ==========
+Segment Number = 1
+Segment Position = cursor
+<form>
+<div align="Center"><input TYPE="button" VALUE="SIGN UP" onClick="parent.location='http://www.FIRSTSIGNUP.com'"></div>
+</form>
+===== Segment End =====
+========== HTML Part End ==========
+

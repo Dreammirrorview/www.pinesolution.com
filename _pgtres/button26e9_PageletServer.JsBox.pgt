@@ -1,0 +1,26 @@
+========== Description Part Begin ==========
+Title = button26e9
+ProgID = PageletServer.JsBox
+LastUpdateTime = 45172.283009259
+PreviewPath = 
+Description = javascript button
+========== Description Part End ==========
+
+========== Parameter Part Begin ==========
+MailButtonPara = LOGOUT,http://www.HOME.com,http:,Right,www.HOME.com
+JsBoxType = 4
+========== Parameter Part End ==========
+
+========== Resource Part Begin ==========
+Resource Number = 0
+========== Resource Part End ==========
+
+========== HTML Part Begin ==========
+Segment Number = 1
+Segment Position = cursor
+<form>
+<div align="Right"><input TYPE="button" VALUE="LOGOUT" onClick="parent.location='http://www.HOME.com'"></div>
+</form>
+===== Segment End =====
+========== HTML Part End ==========
+
