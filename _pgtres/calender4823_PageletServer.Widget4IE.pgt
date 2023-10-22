@@ -1,0 +1,51 @@
+========== Description Part Begin ==========
+Title = calender4823
+ProgID = PageletServer.Widget4IE
+LastUpdateTime = 45173.368171296
+PreviewPath = 
+Description = Calender
+========== Description Part End ==========
+
+========== Parameter Part Begin ==========
+CalanderMorePara = 2 outset #ffffe0,2 outset #c0c0c0,2,ffffe0,outset,c0c0c0,2,outset
+CanCaFont = Times New Roman
+CalanderText = Hello!
+CanTeFont = Courier
+CanInFont = 
+CanTiFont = Verdana
+CalanderPara = center,8b0000,00ff00,ffd700,10,,000000,9,,18,80,ff0000,9,bolder,ffffff,9,bold,normal,normal,,,center,center
+DhtmlType = 3
+ClassWebPath = 
+========== Parameter Part End ==========
+
+========== Resource Part Begin ==========
+Resource Number = 1
+Calander2.js=C:\PROGRA~2\SOURCE~1\SOTHIN~1.5\DHTML\=
+========== Resource Part End ==========
+
+========== HTML Part Begin ==========
+Segment Number = 2
+Segment Position = script
+<script type="text/javascript" src="calander2.js"></script>
+===== Segment End =====
+Segment Position = cursor
+<table align="center">
+<tr>
+<td>
+<script language="JavaScript">
+srcteccalenstyletext="style='font-size: 9pt; font-family: Courier; color: #ff0000; font-weight: bolder; font-style: normal; text-decoration: none'; "
+srcteccalenstyletextbutton="style='font-size: 9pt; font-family: ; color: #000000; font-weight: ; font-style: ; text-decoration: none; height: 18px; width: 80px'; "
+srctectitlestyle="style='font-size: 9pt; font-family: Verdana; color: #ffffff; font-weight: bold; font-style: normal; text-decoration: none; text-align:center;'; "
+srcteccalenstylecalander="style='border: 2 outset #c0c0c0; font-size: 10pt; font-family: Times New Roman; color: #ffd700; font-weight: ; font-style: ; text-decoration: none; text-align:center;'; "
+srcteccalenstyletextborder="style='border:2 outset #ffffe0;'"
+srcteccalengreeting("Hello!");
+document.write("<br>");
+srcteccalencalendar("#8b0000","#00ff00");
+document.write("");
+</script>
+</td>
+</tr>
+</table>
+===== Segment End =====
+========== HTML Part End ==========
+

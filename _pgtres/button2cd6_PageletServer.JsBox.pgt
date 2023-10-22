@@ -1,0 +1,26 @@
+========== Description Part Begin ==========
+Title = button2cd6
+ProgID = PageletServer.JsBox
+LastUpdateTime = 45172.373229167
+PreviewPath = 
+Description = javascript button
+========== Description Part End ==========
+
+========== Parameter Part Begin ==========
+MailButtonPara = SCOREBOAD,http://www.SCOREBOARD.com,http:,Center,www.SCOREBOARD.com
+JsBoxType = 4
+========== Parameter Part End ==========
+
+========== Resource Part Begin ==========
+Resource Number = 0
+========== Resource Part End ==========
+
+========== HTML Part Begin ==========
+Segment Number = 1
+Segment Position = cursor
+<form>
+<div align="Center"><input TYPE="button" VALUE="SCOREBOAD" onClick="parent.location='http://www.SCOREBOARD.com'"></div>
+</form>
+===== Segment End =====
+========== HTML Part End ==========
+
